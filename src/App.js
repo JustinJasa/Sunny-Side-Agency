@@ -1,5 +1,6 @@
 import React from 'react';
-import Nav from './Components/Nav';
+import Nav from './components/NavBar/Nav';
+import './index.css';
 
 function App() {
 	return (
