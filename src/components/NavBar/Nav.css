@@ -1,32 +1,26 @@
 .nav {
 	display: flex;
 	align-items: center;
-	background-color: lightblue;
-	margin-top: 3rem;
 	height: 56px;
+	justify-content: space-between;
+	padding: 5rem 2rem 2rem;
 }
 
 .nav-link {
-	margin: 0 10px;
 	text-decoration: none;
-	font-weight: semibold;
 	color: white;
-}
-
-.nav-container {
-	float: right;
+	padding: 2rem;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .nav-button {
 	text-decoration: none;
 	background-color: white;
-	color: black;
-	padding: 10px;
+	padding: 20px;
+	margin-left: 20px;
 	border-radius: 28px;
 	justify-content: flex-end;
-}
-
-.logo-container {
-	margin-left: 20px;
-	font-size: larger;
+	color: black;
+	font-weight: bold;
 }

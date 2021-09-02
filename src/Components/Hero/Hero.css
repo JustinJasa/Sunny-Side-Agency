@@ -1,3 +1,16 @@
 .hero {
-	background-color: blue;
+	background-image: url('../../images/desktop/image-header.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	max-width: 100vw;
+}
+
+.title {
+	display: grid;
+	place-items: center;
+	font-weight: 800;
+	font-size: 64px;
+	color: #fff;
+	letter-spacing: 15px;
 }

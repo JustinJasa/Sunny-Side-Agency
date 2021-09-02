@@ -7,7 +7,7 @@ function Nav() {
 		<header>
 			<nav class="nav">
 				<div className="logo-container">
-					<img src={Logo} alt="Logo" />
+					<img className="logo" src={Logo} alt="Logo" />
 				</div>
 				<div className="nav-container">
 					<a class="nav-link" href="#">
@@ -20,7 +20,7 @@ function Nav() {
 						Projects
 					</a>
 					<a class="nav-button headings" href="#">
-						Contact
+						CONTACT
 					</a>
 				</div>
 			</nav>
