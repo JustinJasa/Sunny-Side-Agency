@@ -1,5 +1,6 @@
 :root {
 	font-family: 'Barlow', sans-serif;
+	background-color: #fffcf8;
 }
 
 *,
@@ -12,6 +13,11 @@
 
 body {
 	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #24303e;
 }
 
 .headings {
