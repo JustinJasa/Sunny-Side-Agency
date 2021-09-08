@@ -41,26 +41,19 @@ function ServicesGrid() {
 			</div>
 			<div className="img-container-words">
 				<img src={GraphicDesign} alt="graphic-design" />
-				<div className="service-description">
-					<h3 className="headings brand">Graphic Design</h3>
-					<p className="description">
-						Great design makes you memorable. We deliver artwork that
-						underscores your brand message and captures potential clients'
-						attention.
-					</p>
-				</div>
+				{/* 				<h3 className="headings brand">Graphic Design</h3>
+				<p className="description">
+					Great design makes you memorable. We deliver artwork that underscores
+					your brand message and captures potential clients' attention.
+				</p> */}
 			</div>
 			<div className="img-container-words">
-				<div>
-					<img src={Photography} alt="photography" />
-					<div className="service-description">
-						<h3 className="headings brand">Photography</h3>
-						<p className="description">
-							Increase your credibility by getting the most stunning,
-							high-quality photos that improve your business image
-						</p>
-					</div>
-				</div>
+				<img src={Photography} alt="photography" />
+				{/* 				<h3 className="headings brand">Photography</h3>
+				<p className="description">
+					Increase your credibility by getting the most stunning, high-quality
+					photos that improve your business image
+				</p> */}
 			</div>
 		</div>
 	);
