@@ -34,7 +34,7 @@ function Testimonial() {
 					</div>
 					<div>
 						<h4 className="headings name">Thomas S.</h4>
-						<p className="position">Marketing Director</p>
+						<p className="position">Chief Product Officer</p>
 					</div>
 				</div>
 				<div className="testimonial">

@@ -19,7 +19,7 @@ function Nav() {
 					<a class="nav-link" href="#">
 						Projects
 					</a>
-					<a class="nav-button headings" href="#">
+					<a class="nav-button headings" href="#contact">
 						CONTACT
 					</a>
 				</div>
