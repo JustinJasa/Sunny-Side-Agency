@@ -1,59 +1,43 @@
 import React from 'react';
-import emailjs from 'emailjs-com';
 import './Footer.css';
-
-const ContactUs = () => {
-	function sendEmail(e) {
-		e.preventDefault();
-
-		emailjs
-			.sendForm(
-				'service_7eryc39',
-				'service_7eryc39',
-				e.target,
-				'user_FzVSNIzUlIvWV3s0n3053'
-			)
-			.then(
-				(result) => {
-					console.log(result.text);
-				},
-				(error) => {
-					console.log(error.text);
-				}
-			);
-
-		e.target.reset();
-	}
-
-	return (
-		<div className="footer-container">
-			<div>
-				<h2 className="headings contact">Contact Me!</h2>
-			</div>
-			<form className="contact-form" onSubmit={sendEmail}>
-				<label className="label">Name</label>
-				<input type="text" name="to_name" />
-				<label className="label">Email</label>
-				<input type="email" name="from_name" />
-				<label className="label">Message</label>
-				<textarea name="message" />
-				<input className="label" type="submit" value="Send" />
-			</form>
-			<div>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
-			</div>
-		</div>
-	);
-};
+import { Facebook, Instagram, Twitter, Pinterest } from 'grommet-icons';
+import Logo from '../../images/logo.svg';
 
 function Footer() {
 	return (
-		<segment href="#contact">
-			<ContactUs />
+		<segment>
+			<div className="footer-container">
+				<div className="logo">
+					<img src={Logo} alt="logo" />
+				</div>
+				<div className="links">
+					<h3>
+						<a href="#">About</a>
+					</h3>
+					<h3>
+						<a href="#">Services</a>
+					</h3>
+					<h3>
+						<a href="#">Projects</a>
+					</h3>
+				</div>
+				<nav>
+					<ul className="socials">
+						<li className="social-links">
+							<Facebook />
+						</li>
+						<li className="social-links">
+							<Instagram />
+						</li>
+						<li className="social-links">
+							<Twitter />
+						</li>
+						<li className="social-links">
+							<Pinterest />
+						</li>
+					</ul>
+				</nav>
+			</div>
 		</segment>
 	);
 }
